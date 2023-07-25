@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bate-papo UOL</title>
+  <link href="./css/reset.css" rel="stylesheet">
+  <link href="./css/styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+
+  <header>
+    <img src="./assets/img/logo.png">
+    <ion-icon name="people-sharp"></ion-icon>
+  </header>
+
+  <main>
+    <ul class="message-container">
+      <li class="public-message">
+        <div class="div-user-public-talk-example1 div-user">
+          <span class="time">(09:21:45)</span>
+          <strong>João</strong>
+          <span> entra na sala... </span>
+        </div>
+        <br>
+        <!-- <div class="div-user-public-talk-example2 div-user">
+          <span class="time">(09:22:28)</span>
+          <strong>João</strong>
+          <span> para </span>
+          <strong> Todos </strong>
+          <span>Bom dia</span>
+        </div> -->
+        <!-- <div class="div-user-public-talk-example3 div-user">
+          <span class="time">(09:22:38)</span>
+          <strong>Maria</strong>
+          <span> para </span>
+          <strong>João: </strong>
+          <span>Oi João :]</span>
+        </div> -->
+      </li>
+      <li class="private-message">
+        <div class="div-user-private-talk-example">
+          <span class="time">(09:22:48)</span>
+          <strong>João</strong>
+          <span> reservadamente para </span>
+          <strong>Maria: </strong>
+          <span>Oi gatinha quer tc?</span>
+        </div>
+      </li>
+      <li class="in-and-out-message">
+        <div class="div-user-in-and-out-message-example">
+          <span class="time">(09:22:58)</span>
+          <strong>Maria</strong>
+          <span>sai da sala...</span>
+        </div>
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    <div class="chat">
+      <input placeholder="Escreva aqui..." class="input-mensagem"></input>
+    </div>
+    <button onclick="sendMessage()">
+      <ion-icon name="paper-plane-outline"></ion-icon>
+    </button>
+  </footer>
+
+
+
+  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
