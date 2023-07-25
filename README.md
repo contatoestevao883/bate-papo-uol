@@ -1,4 +1,4 @@
-<img src="https://github.com/contatoestevao883/bate-papo-uol/assets/122030037/b9d851a7-eba8-4c48-a47e-5b3d9657e027" width=100px>
+<img src="https://github.com/contatoestevao883/bate-papo-uol/assets/122030037/43345855-ecd4-48e1-9935-ee7ea25b2407" width=100px>
 
 ### Bate-Papo UOL
 
